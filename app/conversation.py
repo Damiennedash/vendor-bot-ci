@@ -6,14 +6,12 @@ BRAND = "FANMILK COTE D'IVOIRE"
 
 # ── DEPOTS CÔTE D'IVOIRE ────────────────────────────────────
 DEPOTS = {
-    "1": "ABIDJAN NORD",
-    "2": "ABIDJAN SUD",
-    "3": "ABIDJAN EST",
-    "4": "ABIDJAN OUEST",
-    "5": "BOUAKE",
-    "6": "YAMOUSSOUKRO",
-    "7": "SAN-PEDRO",
-    "8": "DALOA",
+    "1": "Agent PK18",
+    "2": "Agent Brou Madelaine",
+    "3": "Agent Kouma",
+    "4": "Agent Barry",
+    "5": "Agent Ponty",
+    "6": "Agent Youssef",
 }
 
 LIEUX = {
