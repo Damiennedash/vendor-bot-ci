@@ -8,9 +8,15 @@ services:
     buildCommand: "python -m pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
     startCommand: "python -m app.main"
     envVars:
+      - key: WHATSAPP_TOKEN
+        value: EAAOL9kvJkOYBR2PyfOPh26PfxaGQEkpZAqLxWYh37ejhGBw2J5IME82qAuJk5W9bZBDLEeoVMZBHYHSZAdNVBZC0buPWrJ3HfH4lnPxRQCq57rOg0ZBpZACDGpUtWZCZC1F6jHGAj7EPZAYDBOz4gsETudW9LZBZCYDVj0x9tZBaNMJ338QwbLsJ9tBptNLwxiaLVG4Ic5t7mcC8VZAHYADM3WSvX7PmNKFo9gWE1nvcKDyeLL
+      - key: WHATSAPP_PHONE_ID
+        value: A_RECUPERER_SUR_META
+      - key: WHATSAPP_VERIFY_TOKEN
+        value: fanmilk_ci_webhook_2024
       - key: GOOGLE_SHEET_ID
         value: 1dUMWHYe3ApBtceZZ4oqjgYDk88gKGYLwN5jkW_6-r1s
       - key: GOOGLE_SHEET_TAB
         value: Reponses Vendors
-      - key: WHATSAPP_VERIFY_TOKEN
-        value: fanmilk_ci_webhook_2024
+      - key: GOOGLE_CREDENTIALS_JSON
+        value: A_COLLER_JSON_SERVICE_ACCOUNT
